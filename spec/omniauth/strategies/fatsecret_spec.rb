@@ -11,7 +11,7 @@ describe OmniAuth::Strategies::Fatsecret do
     end
 
     it 'should have correct site' do
-      expect(subject.options.client_options.site).to eq('http://www.fatsecret.com')
+      expect(subject.options.client_options.site).to eq('https://www.fatsecret.com')
     end
 
     it 'should have correct scheme' do
